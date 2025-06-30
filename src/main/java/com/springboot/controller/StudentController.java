@@ -26,6 +26,8 @@ public class StudentController {
 
     @PostMapping("/save")
 	public ResponseEntity<ApiResponse> saveStudent(@Valid @RequestBody Student student) {
+
+		logger.info("Git tution");
 		logger.info("Received request to save new student");
 		Student student_1 = studentService.createStudent(student);
 		ApiResponse response = new ApiResponse(true, "Student added successfully", student_1);
