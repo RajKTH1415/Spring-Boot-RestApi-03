@@ -1,9 +1,12 @@
 package com.springboot.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.*;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Setter
@@ -14,8 +17,16 @@ import lombok.*;
 public class Teacher {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int teacher_Id;
+
+    @NotBlank(message = "Name is mandatory")
     private String teacherName;
+
+    @NotBlank(message = "Email is mandatory")
+    @Email(message = "Invalid email format")
     private String teacherEmail;
+
+    @NotBlank(message = "Gender is mandatory")
     private String teacherGender;
 }
