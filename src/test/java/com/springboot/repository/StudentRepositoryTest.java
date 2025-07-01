@@ -15,7 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class StudentRepositoryTest {
 
     @Autowired
-    private Studentrepository studentrepository;
+    private StudentRepository studentrepository;
 
     @Test
     @DisplayName("Should return true if student email exists")

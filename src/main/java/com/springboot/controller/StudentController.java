@@ -1,5 +1,4 @@
 package com.springboot.controller;
-
 import com.springboot.model.Student;
 import com.springboot.respone.ApiResponse;
 import com.springboot.service.StudentService;
@@ -20,11 +19,14 @@ public class StudentController {
 	@Autowired
 	private StudentService studentService;
 
-    public StudentController(StudentService studentService) {
-        this.studentService = studentService;
-    }
+	public StudentController(StudentService studentService) {
+		this.studentService = studentService;
+	}
 
-    @PostMapping("/save")
+	private ResponseEntity<ApiResponse> buildResponse(boolean success, String message, Object data, HttpStatus status) {
+		return new ResponseEntity<>(new ApiResponse(success, message, data), status);
+	}
+	@PostMapping("/save")
 	public ResponseEntity<ApiResponse> saveStudent(@Valid @RequestBody Student student) {
 		logger.info("Received request to save new student");
 		Student student_1 = studentService.createStudent(student);
@@ -77,5 +79,50 @@ public class StudentController {
 		ApiResponse response = new ApiResponse(true, "All students deleted successfully!", null);
 		logger.info("All students deleted");
 		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+
+	@GetMapping("/gender/{gender}")
+	public ResponseEntity<ApiResponse> getStudentsByGender(@PathVariable String gender) {
+		logger.info("Fetching students with gender: {}", gender);
+		List<Student> students = studentService.getStudentsByGender(gender);
+		ApiResponse response = new ApiResponse(true, "Students fetched by gender", students);
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+
+	@GetMapping("/email-domain/{domain}")
+	public ResponseEntity<ApiResponse> getStudentsByEmailDomain(@PathVariable String domain) {
+		logger.info("Fetching students with email domain: {}", domain);
+		List<Student> students = studentService.getStudentsByEmailDomain(domain);
+		ApiResponse response = new ApiResponse(true, "Students fetched by email domain", students);
+		return new ResponseEntity<>(response, HttpStatus.OK);
+	}
+	@GetMapping("/top/{n}")
+	public ResponseEntity<ApiResponse> getTopNStudents(@PathVariable int n) {
+		logger.info("Fetching top {} students", n);
+		List<Student> topStudents = studentService.getTopNStudents(n);
+		return buildResponse(true, "Top " + n + " students fetched successfully", topStudents, HttpStatus.OK);
+	}
+
+	@GetMapping("/exists/{name}")
+	public ResponseEntity<ApiResponse> isStudentExistsByName(@PathVariable String name) {
+		logger.info("Checking existence of student by name: {}", name);
+		boolean exists = studentService.isStudentExistsWithName(name);
+		String message = exists ? "Student exists" : "Student not found";
+		return buildResponse(true, message, exists, HttpStatus.OK);
+	}
+
+	@DeleteMapping("/archive-delete")
+	public ResponseEntity<ApiResponse> archiveAndDeleteAllStudents() {
+		logger.warn("Archiving and deleting all students");
+		studentService.archiveAndDeleteAll();
+		return buildResponse(true, "All students archived and deleted", null, HttpStatus.OK);
+	}
+
+	@PatchMapping("/{studentId}/update-email")
+	public ResponseEntity<ApiResponse> safeUpdateStudentEmail(@PathVariable Long studentId,
+															  @RequestParam String newEmail) {
+		logger.info("Safely updating email for student ID: {}", studentId);
+		Student updatedStudent = studentService.safeUpdateStudentEmail(studentId, newEmail);
+		return buildResponse(true, "Student email updated successfully", updatedStudent, HttpStatus.OK);
 	}
 }

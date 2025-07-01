@@ -4,14 +4,13 @@ import com.springboot.exception.DuplicateFoundException;
 import com.springboot.exception.NoDataAvailableException;
 import com.springboot.exception.StudentNotFoundException;
 import com.springboot.model.Student;
-import com.springboot.repository.Studentrepository;
+import com.springboot.repository.StudentRepository;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.*;
-
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StudentServiceTest {
 
     @Mock
-    private Studentrepository studentrepository;
+    private StudentRepository studentrepository;
 
     @InjectMocks
     private StudentService studentService;
@@ -41,18 +40,14 @@ public class StudentServiceTest {
         sampleStudent.setStudentGender("Male");
         sampleStudent.setStudentEmail("raj@gmail.com");
     }
-
     @AfterEach
     void tearDown() {
         System.out.println("After Each");
     }
-
     @AfterAll
     static void afterAll() {
         System.out.println("After All");
     }
-
-
     @Test
     void createStudentSuccessfully() {
         when(studentrepository.existsByStudentEmail(sampleStudent.getStudentEmail())).thenReturn(false);
@@ -64,8 +59,6 @@ public class StudentServiceTest {
         assertEquals(sampleStudent.getStudentEmail(), saved.getStudentEmail());
         verify(studentrepository, times(1)).save(sampleStudent);
     }
-
-
     @Test
     void createStudentThrowsDuplicateException() {
         when(studentrepository.existsByStudentEmail(sampleStudent.getStudentEmail())).thenReturn(true);
@@ -73,7 +66,6 @@ public class StudentServiceTest {
         assertThrows(DuplicateFoundException.class, () -> studentService.createStudent(sampleStudent));
         verify(studentrepository, never()).save(any());
     }
-
     @Test
     void getStudentByIdSuccessfully() {
         when(studentrepository.findById(1L)).thenReturn(Optional.of(sampleStudent));
@@ -83,16 +75,12 @@ public class StudentServiceTest {
         assertEquals("Rajkumar Prasad", student.getStudentName());
         verify(studentrepository, times(1)).findById(1L);
     }
-
-
     @Test
     void getStudentByIdThrowsException() {
         when(studentrepository.findById(1L)).thenReturn(Optional.empty());
 
         assertThrows(StudentNotFoundException.class, () -> studentService.getStudentById(1L));
     }
-
-
     @Test
     void getAllStudentsSuccessfully() {
         when(studentrepository.findAll()).thenReturn(List.of(sampleStudent));
