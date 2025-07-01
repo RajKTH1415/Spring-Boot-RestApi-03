@@ -13,7 +13,7 @@ public class FilterConfig {
     public FilterRegistrationBean<RateLimitingFilter> rateLimitingFilter() {
         FilterRegistrationBean<RateLimitingFilter> registrationBean = new FilterRegistrationBean<>();
         registrationBean.setFilter(new RateLimitingFilter());
-        registrationBean.addUrlPatterns("/api/student/studentId"); // Apply rate limit to specific endpoints
+        registrationBean.addUrlPatterns("/api/student/studentId");
         return registrationBean;
     }
 }
