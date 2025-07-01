@@ -2,6 +2,8 @@ package com.springboot.controller;
 import com.springboot.model.Student;
 import com.springboot.respone.ApiResponse;
 import com.springboot.service.StudentService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/student")
+@Tag(name = "Student controller",description = "APIs for Student management system")
 public class StudentController {
 	private static final Logger logger = LoggerFactory.getLogger(StudentController.class);
 
@@ -27,6 +30,7 @@ public class StudentController {
 		return new ResponseEntity<>(new ApiResponse(success, message, data), status);
 	}
 	@PostMapping("/save")
+	@Operation(summary = "save a new student",description = "Create and stores new student in the database")
 	public ResponseEntity<ApiResponse> saveStudent(@Valid @RequestBody Student student) {
 		logger.info("Received request to save new student");
 		Student student_1 = studentService.createStudent(student);
@@ -36,6 +40,7 @@ public class StudentController {
 	}
 
 	@GetMapping("/{studentId}")
+	@Operation(summary = "Get student by ID",description = "Fetch student based on student ID")
 	public ResponseEntity<ApiResponse> getStudentById(@PathVariable Long studentId) {
 		logger.info("Fetching student with ID: {}", studentId);
 		Student student_2 = studentService.getStudentById(studentId);
@@ -45,6 +50,7 @@ public class StudentController {
 	}
 
 	@GetMapping
+	@Operation(summary = "Get all students from database",description = "Fetch all students records")
 	public ResponseEntity<List<Student>> getAllEmployee() {
 		logger.info("Fetching all students");
 		List<Student> student_3 = studentService.getAllStudents();
@@ -54,6 +60,7 @@ public class StudentController {
 	}
 
 	@PutMapping("/{studentId}")
+	@Operation(summary = "Update student",description = "Updates student details based on ID")
 	public ResponseEntity<ApiResponse> updateStudent(@PathVariable Long studentId,
 													 @Valid @RequestBody Student student) {
 		logger.info("Updating student with ID: {}", studentId);
@@ -64,6 +71,7 @@ public class StudentController {
 	}
 
 	@DeleteMapping("/{studentId}")
+	@Operation(summary = "Delete student Based on ID",description = "Remove student based of ID")
 	public ResponseEntity<ApiResponse> deleteStudent(@PathVariable Long studentId) {
 		logger.info("Deleting student with ID: {}", studentId);
 		Student student_5 = studentService.deleteStudentById(studentId);
@@ -73,6 +81,7 @@ public class StudentController {
 	}
 
 	@DeleteMapping("/deleteAll")
+	@Operation(summary = "Delete all students from database",description = "Delete all Records from database")
 	public ResponseEntity<ApiResponse> deleteAllStudents() {
 		logger.warn("Received request to delete all students");
 		studentService.deleteAllStudents();
@@ -82,6 +91,7 @@ public class StudentController {
 	}
 
 	@GetMapping("/gender/{gender}")
+	@Operation(summary = "Get students based on gender",description = "Fetch students records based on gender")
 	public ResponseEntity<ApiResponse> getStudentsByGender(@PathVariable String gender) {
 		logger.info("Fetching students with gender: {}", gender);
 		List<Student> students = studentService.getStudentsByGender(gender);
@@ -90,6 +100,7 @@ public class StudentController {
 	}
 
 	@GetMapping("/email-domain/{domain}")
+	@Operation(summary = "Get students based on domain",description = "Fetch students records based on their domain name")
 	public ResponseEntity<ApiResponse> getStudentsByEmailDomain(@PathVariable String domain) {
 		logger.info("Fetching students with email domain: {}", domain);
 		List<Student> students = studentService.getStudentsByEmailDomain(domain);
@@ -97,6 +108,7 @@ public class StudentController {
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 	@GetMapping("/top/{n}")
+	@Operation(summary = "Get to N students",description = "Fetch top N students based on their name in ascending order")
 	public ResponseEntity<ApiResponse> getTopNStudents(@PathVariable int n) {
 		logger.info("Fetching top {} students", n);
 		List<Student> topStudents = studentService.getTopNStudents(n);
@@ -104,6 +116,7 @@ public class StudentController {
 	}
 
 	@GetMapping("/exists/{name}")
+	@Operation(summary = "Check student is exists or not",description = "Chcek isStudent exists in database or not")
 	public ResponseEntity<ApiResponse> isStudentExistsByName(@PathVariable String name) {
 		logger.info("Checking existence of student by name: {}", name);
 		boolean exists = studentService.isStudentExistsWithName(name);
@@ -112,6 +125,7 @@ public class StudentController {
 	}
 
 	@DeleteMapping("/archive-delete")
+	@Operation(summary ="Archive and delete all student",description = "Log and delete all students ")
 	public ResponseEntity<ApiResponse> archiveAndDeleteAllStudents() {
 		logger.warn("Archiving and deleting all students");
 		studentService.archiveAndDeleteAll();
@@ -119,6 +133,7 @@ public class StudentController {
 	}
 
 	@PatchMapping("/{studentId}/update-email")
+	@Operation(summary = "Safe update email",description = "Safely update email of student ID ")
 	public ResponseEntity<ApiResponse> safeUpdateStudentEmail(@PathVariable Long studentId,
 															  @RequestParam String newEmail) {
 		logger.info("Safely updating email for student ID: {}", studentId);

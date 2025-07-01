@@ -15,7 +15,7 @@ public class OpenApiConfig {
     public OpenAPI studentServiceOpenAPI(){
         return new OpenAPI()
                 .info(new Info()
-                        .title("STUDENT MANAGEMENT SYSTEM-REST API-02")
+                        .title("STUDENT MANAGEMENT SYSTEM-REST API-03")
                         .description("API- Documentation for managing student data")
                         .version("v1.0")
                         .contact(new Contact()
