@@ -1,5 +1,7 @@
 package com.springboot.controller;
+import com.springboot.hateoas.StudentModelAssembler;
 import com.springboot.model.Student;
+import com.springboot.model.StudentModel;
 import com.springboot.respone.ApiResponse;
 import com.springboot.service.StudentService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -22,6 +24,9 @@ public class StudentController {
 	@Autowired
 	private StudentService studentService;
 
+	@Autowired
+	private StudentModelAssembler assembler;
+
 	public StudentController(StudentService studentService) {
 		this.studentService = studentService;
 	}
@@ -34,7 +39,8 @@ public class StudentController {
 	public ResponseEntity<ApiResponse> saveStudent(@Valid @RequestBody Student student) {
 		logger.info("Received request to save new student");
 		Student student_1 = studentService.createStudent(student);
-		ApiResponse response = new ApiResponse(true, "Student added successfully", student_1);
+		 StudentModel model = assembler.toModel(student_1);
+		ApiResponse response = new ApiResponse(true, "Student added successfully", model);
 		logger.debug("Student created with ID: {}", student_1.getStudentId());
 		return new ResponseEntity<>(response, HttpStatus.CREATED);
 	}
@@ -42,10 +48,14 @@ public class StudentController {
 	@GetMapping("/{studentId}")
 	@Operation(summary = "Get student by ID",description = "Fetch student based on student ID")
 	public ResponseEntity<ApiResponse> getStudentById(@PathVariable Long studentId) {
+
 		logger.info("Fetching student with ID: {}", studentId);
+
 		Student student_2 = studentService.getStudentById(studentId);
-		ApiResponse response = new ApiResponse(true, "Student is present with given Id :" + studentId, student_2);
+		StudentModel model = assembler.toModel(student_2);
 		logger.debug("Successfully fetched student with ID: {}", studentId);
+
+		ApiResponse response = new ApiResponse(true, "Student is present with given Id :" + studentId, model);
 		return new ResponseEntity<>(response, HttpStatus.OK);
 	}
 

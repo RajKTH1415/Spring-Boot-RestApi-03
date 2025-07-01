@@ -6427,3 +6427,735 @@ Caused by: org.hibernate.AnnotationException: Entity 'com.springboot.model.Teach
 2025-07-01 16:32:06 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-07-01 16:32:06 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-07-01 16:32:06 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 16:35:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 16:35:44 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 13620 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 16:35:44 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 16:35:44 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 16:35:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 16:35:44 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 16:35:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 16:35:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 137 ms. Found 1 JPA repository interface.
+2025-07-01 16:35:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 16:35:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:35:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 16:35:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 16:35:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 16:35:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4998 ms
+2025-07-01 16:35:50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 16:35:50 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 16:35:50 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 16:35:51 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 16:35:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 16:35:52 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d168845
+2025-07-01 16:35:52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 16:35:52 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 16:35:52 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 16:35:54 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 16:35:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:35:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 16:35:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 16:35:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:35:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 16:35:57 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 14.254 seconds (process running for 16.32)
+2025-07-01 16:35:57 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 16:36:05 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 16:36:05 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 16:36:05 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-01 16:36:05 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/eco
+2025-07-01 16:36:05 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/eco - time Taken: 73 ms
+2025-07-01 16:36:12 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:36:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 16:36:12 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 16:36:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 16:36:18 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 1860 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 16:36:18 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 16:36:18 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 16:36:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 16:36:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 16:36:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 16:36:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2025-07-01 16:36:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 16:36:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:36:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 16:36:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 16:36:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 16:36:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5308 ms
+2025-07-01 16:36:24 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 16:36:24 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 16:36:24 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 16:36:26 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 16:36:26 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 16:36:27 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e611082
+2025-07-01 16:36:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 16:36:27 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 16:36:27 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 16:36:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 16:36:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:36:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 16:36:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 16:36:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:36:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 16:36:34 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 17.065 seconds (process running for 19.298)
+2025-07-01 16:36:34 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 16:36:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 16:36:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 16:36:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-07-01 16:36:48 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/eco
+2025-07-01 16:36:48 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/eco - time Taken: 76 ms
+2025-07-01 16:53:21 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:53:21 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 16:53:21 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 16:53:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 16:53:40 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 10744 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 16:53:40 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 16:53:40 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 16:53:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 16:53:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 16:53:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 16:53:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 177 ms. Found 1 JPA repository interface.
+2025-07-01 16:53:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 16:53:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:53:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 16:53:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 16:53:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 16:53:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6285 ms
+2025-07-01 16:53:48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 16:53:48 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 16:53:48 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 16:53:49 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 16:53:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 16:53:50 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1caa3c19
+2025-07-01 16:53:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 16:53:50 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 16:53:50 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 16:53:52 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 16:53:53 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:53:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 16:53:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 16:53:56 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:53:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 16:53:57 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 18.888 seconds (process running for 20.929)
+2025-07-01 16:53:57 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 16:54:01 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 16:54:01 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 16:54:01 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-01 16:54:01 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 16:54:01 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 16:54:01 [http-nio-8080-exec-2] INFO  c.springboot.service.StudentService - Attempting to create student with email: raju@gmail.in
+2025-07-01 16:54:02 [http-nio-8080-exec-2] INFO  c.springboot.service.StudentService - Student created successfully with ID: 1
+2025-07-01 16:54:02 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Student created with ID: 1
+2025-07-01 16:54:02 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 827 ms
+2025-07-01 16:54:13 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:54:13 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:54:13 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:54:13 [http-nio-8080-exec-3] ERROR c.springboot.service.StudentService - Student not found with ID: 3
+2025-07-01 16:54:13 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.StudentNotFoundException: Student not found with ID: 3]
+2025-07-01 16:54:13 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 74 ms
+2025-07-01 16:54:21 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 16:54:21 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 16:54:21 [http-nio-8080-exec-4] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 16:54:21 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 16:54:22 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 244 ms
+2025-07-01 16:57:26 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 16:57:26 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 16:57:26 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 16:57:26 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 16:57:26 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 31 ms
+2025-07-01 16:58:38 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:58:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 16:58:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 16:58:48 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 16:58:48 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 8200 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 16:58:48 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 16:58:48 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 16:58:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 16:58:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 16:58:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 16:58:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2025-07-01 16:58:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 16:58:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:58:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 16:58:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 16:58:55 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 16:58:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6884 ms
+2025-07-01 16:58:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 16:58:56 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 16:58:56 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 16:58:56 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 16:58:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 16:58:58 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f280581
+2025-07-01 16:58:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 16:58:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 16:58:58 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 16:59:01 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 16:59:01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:59:02 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 16:59:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 16:59:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 16:59:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 16:59:04 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 18.221 seconds (process running for 19.815)
+2025-07-01 16:59:04 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 16:59:07 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 16:59:07 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 16:59:07 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-07-01 16:59:07 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 16:59:07 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 16:59:07 [http-nio-8080-exec-2] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 16:59:08 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 16:59:08 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 593 ms
+2025-07-01 17:00:42 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:00:42 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:00:42 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:00:42 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:00:42 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 27 ms
+2025-07-01 17:01:56 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:01:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 17:01:56 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 17:02:05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 17:02:05 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 4316 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 17:02:05 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 17:02:05 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 17:02:05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 17:02:05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 17:02:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 17:02:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+2025-07-01 17:02:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 17:02:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:02:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 17:02:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 17:02:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 17:02:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5128 ms
+2025-07-01 17:02:11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 17:02:11 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 17:02:11 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 17:02:12 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 17:02:12 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 17:02:13 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1bd606e8
+2025-07-01 17:02:13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 17:02:13 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 17:02:13 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 17:02:15 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 17:02:15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:02:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 17:02:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 17:02:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:02:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 17:02:18 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 14.361 seconds (process running for 15.906)
+2025-07-01 17:02:18 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 17:02:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 17:02:34 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 17:02:34 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-01 17:02:34 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:02:35 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:02:35 [http-nio-8080-exec-1] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:02:35 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:02:35 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 701 ms
+2025-07-01 17:03:30 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:03:30 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:03:30 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:03:30 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:03:30 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 30 ms
+2025-07-01 17:03:33 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:03:33 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:03:33 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:03:33 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:03:33 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 28 ms
+2025-07-01 17:04:35 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:04:35 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:04:35 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:04:35 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:04:35 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 26 ms
+2025-07-01 17:04:37 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:04:37 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:04:37 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:04:37 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:04:37 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 24 ms
+2025-07-01 17:09:18 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:09:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 17:09:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 17:09:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 17:09:28 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 5264 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 17:09:28 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 17:09:28 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 17:09:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 17:09:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 17:09:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 17:09:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interface.
+2025-07-01 17:09:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 17:09:33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:09:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 17:09:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 17:09:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 17:09:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4882 ms
+2025-07-01 17:09:34 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 17:09:34 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 17:09:34 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 17:09:35 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 17:09:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 17:09:36 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27c3c94d
+2025-07-01 17:09:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 17:09:36 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 17:09:36 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 17:09:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 17:09:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:09:39 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 17:09:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 17:09:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:09:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 17:09:40 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 13.771 seconds (process running for 14.925)
+2025-07-01 17:09:40 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 17:09:45 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 17:09:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 17:09:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-07-01 17:09:45 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:09:46 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:09:46 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Attempting to create student with email: rajkumarprasad@gmail.in
+2025-07-01 17:09:46 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Student created successfully with ID: 2
+2025-07-01 17:09:46 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Student created with ID: 2
+2025-07-01 17:09:46 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 1038 ms
+2025-07-01 17:11:23 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:11:23 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:11:23 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:11:23 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:11:23 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 62 ms
+2025-07-01 17:12:34 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:12:34 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:12:34 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:12:34 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:12:34 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 29 ms
+2025-07-01 17:13:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:13:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 17:13:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 17:13:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 17:13:38 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 7840 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 17:13:38 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 17:13:38 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 17:13:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 17:13:38 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 17:13:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 17:13:41 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interface.
+2025-07-01 17:13:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 17:13:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:13:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 17:13:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 17:13:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 17:13:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5059 ms
+2025-07-01 17:13:44 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 17:13:44 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 17:13:44 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 17:13:45 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 17:13:45 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 17:13:46 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69fddab0
+2025-07-01 17:13:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 17:13:46 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 17:13:46 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 17:13:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 17:13:49 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:13:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 17:13:51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 17:13:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:13:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 17:13:51 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 14.853 seconds (process running for 16.094)
+2025-07-01 17:13:51 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 17:14:34 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 17:14:34 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 17:14:34 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui.html
+2025-07-01 17:14:34 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui.html - time Taken: 273 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/index.html
+2025-07-01 17:14:34 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/index.html - time Taken: 5 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-initializer.js
+2025-07-01 17:14:34 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/index.css
+2025-07-01 17:14:34 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui.css
+2025-07-01 17:14:34 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui-bundle.js
+2025-07-01 17:14:34 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-07-01 17:14:34 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/index.css - time Taken: 11 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui-bundle.js - time Taken: 7 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui.css - time Taken: 13 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui-standalone-preset.js - time Taken: 11 ms
+2025-07-01 17:14:34 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-initializer.js - time Taken: 96 ms
+2025-07-01 17:14:35 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /v1/api-docs/swagger-config
+2025-07-01 17:14:35 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /v1/api-docs/swagger-config - time Taken: 18 ms
+2025-07-01 17:14:35 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /v1/api-docs
+2025-07-01 17:14:36 [http-nio-8080-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1164 ms
+2025-07-01 17:14:36 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /v1/api-docs - time Taken: 1239 ms
+2025-07-01 17:16:06 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:16:06 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:16:06 [http-nio-8080-exec-4] INFO  c.springboot.service.StudentService - Attempting to create student with email: rajkumar@gmail.com
+2025-07-01 17:16:06 [http-nio-8080-exec-4] INFO  c.springboot.service.StudentService - Student created successfully with ID: 1
+2025-07-01 17:16:07 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Student created with ID: 1
+2025-07-01 17:16:07 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 716 ms
+2025-07-01 17:16:09 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:16:09 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:16:09 [http-nio-8080-exec-7] INFO  c.springboot.service.StudentService - Attempting to create student with email: rajkumar@gmail.com
+2025-07-01 17:16:09 [http-nio-8080-exec-7] WARN  c.springboot.service.StudentService - Duplicate student email found: rajkumar@gmail.com
+2025-07-01 17:16:09 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.DuplicateFoundException: Student with email [rajkumar@gmail.com] already exists]
+2025-07-01 17:16:09 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 21 ms
+2025-07-01 17:16:45 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:16:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 17:16:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 17:16:49 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 17:16:49 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 17624 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 17:16:49 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 17:16:49 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 17:16:49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 17:16:49 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 17:16:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 17:16:51 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2025-07-01 17:16:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 17:16:53 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:16:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 17:16:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 17:16:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 17:16:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4048 ms
+2025-07-01 17:16:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 17:16:53 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 17:16:53 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 17:16:54 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 17:16:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 17:16:55 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@406e43df
+2025-07-01 17:16:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 17:16:55 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 17:16:55 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 17:16:57 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 17:16:57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:16:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 17:16:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 17:16:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:16:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 17:16:59 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 11.738 seconds (process running for 12.805)
+2025-07-01 17:16:59 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 17:17:08 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 17:17:08 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 17:17:08 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-07-01 17:17:08 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:17:09 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:17:09 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Attempting to create student with email: rajkumar@gmail.com
+2025-07-01 17:17:09 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Student created successfully with ID: 1
+2025-07-01 17:17:09 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Student created with ID: 1
+2025-07-01 17:17:09 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 785 ms
+2025-07-01 17:17:59 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:17:59 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:17:59 [http-nio-8080-exec-2] INFO  c.springboot.service.StudentService - Attempting to create student with email: ram@gmail.com
+2025-07-01 17:17:59 [http-nio-8080-exec-2] INFO  c.springboot.service.StudentService - Student created successfully with ID: 2
+2025-07-01 17:17:59 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Student created with ID: 2
+2025-07-01 17:17:59 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 44 ms
+2025-07-01 17:18:34 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:18:34 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:18:34 [http-nio-8080-exec-3] INFO  c.springboot.service.StudentService - Attempting to create student with email: anjali@gmail.in
+2025-07-01 17:18:34 [http-nio-8080-exec-3] INFO  c.springboot.service.StudentService - Student created successfully with ID: 3
+2025-07-01 17:18:34 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Student created with ID: 3
+2025-07-01 17:18:34 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 39 ms
+2025-07-01 17:18:52 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:18:52 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:18:52 [http-nio-8080-exec-4] INFO  c.springboot.service.StudentService - Attempting to create student with email: sapna@gmail.in
+2025-07-01 17:18:52 [http-nio-8080-exec-4] INFO  c.springboot.service.StudentService - Student created successfully with ID: 4
+2025-07-01 17:18:52 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Student created with ID: 4
+2025-07-01 17:18:52 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 37 ms
+2025-07-01 17:19:13 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 17:19:13 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 17:19:13 [http-nio-8080-exec-5] INFO  c.springboot.service.StudentService - Attempting to create student with email: guddu@gmail.in
+2025-07-01 17:19:13 [http-nio-8080-exec-5] INFO  c.springboot.service.StudentService - Student created successfully with ID: 5
+2025-07-01 17:19:13 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Student created with ID: 5
+2025-07-01 17:19:13 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 33 ms
+2025-07-01 17:19:55 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:19:55 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:19:55 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:19:55 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:19:55 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 83 ms
+2025-07-01 17:20:06 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:20:06 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:20:06 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:20:06 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:20:06 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 22 ms
+2025-07-01 17:20:29 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student
+2025-07-01 17:20:29 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching all students
+2025-07-01 17:20:29 [http-nio-8080-exec-8] INFO  c.springboot.service.StudentService - Fetching all students
+2025-07-01 17:20:29 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Found 5 students
+2025-07-01 17:20:29 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Fetched 5 students
+2025-07-01 17:20:29 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student - time Taken: 26 ms
+2025-07-01 17:20:31 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student
+2025-07-01 17:20:31 [http-nio-8080-exec-9] INFO  c.s.controller.StudentController - Fetching all students
+2025-07-01 17:20:31 [http-nio-8080-exec-9] INFO  c.springboot.service.StudentService - Fetching all students
+2025-07-01 17:20:31 [http-nio-8080-exec-9] DEBUG c.springboot.service.StudentService - Found 5 students
+2025-07-01 17:20:31 [http-nio-8080-exec-9] DEBUG c.s.controller.StudentController - Fetched 5 students
+2025-07-01 17:20:31 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student - time Taken: 12 ms
+2025-07-01 17:20:53 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:DELETE /api/student/5
+2025-07-01 17:20:53 [http-nio-8080-exec-10] INFO  c.s.controller.StudentController - Deleting student with ID: 5
+2025-07-01 17:20:53 [http-nio-8080-exec-10] INFO  c.springboot.service.StudentService - Deleting student with ID: 5
+2025-07-01 17:20:53 [http-nio-8080-exec-10] INFO  c.springboot.service.StudentService - Student with ID 5 deleted successfully
+2025-07-01 17:20:53 [http-nio-8080-exec-10] INFO  c.s.controller.StudentController - Student with ID 5 deleted
+2025-07-01 17:20:53 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Completed request: DELETE /api/student/5 - time Taken: 46 ms
+2025-07-01 17:20:54 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:DELETE /api/student/5
+2025-07-01 17:20:54 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Deleting student with ID: 5
+2025-07-01 17:20:54 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Deleting student with ID: 5
+2025-07-01 17:20:54 [http-nio-8080-exec-1] ERROR c.springboot.service.StudentService - Student not found with ID: 5
+2025-07-01 17:20:54 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.StudentNotFoundException: Student not found with ID: 5]
+2025-07-01 17:20:54 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: DELETE /api/student/5 - time Taken: 32 ms
+2025-07-01 17:21:01 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:DELETE /api/student/5
+2025-07-01 17:21:01 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Deleting student with ID: 5
+2025-07-01 17:21:01 [http-nio-8080-exec-2] INFO  c.springboot.service.StudentService - Deleting student with ID: 5
+2025-07-01 17:21:01 [http-nio-8080-exec-2] ERROR c.springboot.service.StudentService - Student not found with ID: 5
+2025-07-01 17:21:01 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.StudentNotFoundException: Student not found with ID: 5]
+2025-07-01 17:21:01 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: DELETE /api/student/5 - time Taken: 10 ms
+2025-07-01 17:21:06 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:DELETE /api/student/4
+2025-07-01 17:21:06 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Deleting student with ID: 4
+2025-07-01 17:21:06 [http-nio-8080-exec-3] INFO  c.springboot.service.StudentService - Deleting student with ID: 4
+2025-07-01 17:21:07 [http-nio-8080-exec-3] INFO  c.springboot.service.StudentService - Student with ID 4 deleted successfully
+2025-07-01 17:21:07 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Student with ID 4 deleted
+2025-07-01 17:21:07 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: DELETE /api/student/4 - time Taken: 21 ms
+2025-07-01 17:21:43 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:43 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:43 [http-nio-8080-exec-4] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:43 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:43 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 25 ms
+2025-07-01 17:21:45 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:45 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:45 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:45 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:45 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 26 ms
+2025-07-01 17:21:46 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:46 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:46 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:46 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:46 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 23 ms
+2025-07-01 17:21:46 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:46 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:46 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:46 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:46 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 21 ms
+2025-07-01 17:21:47 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:47 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:47 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:47 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:47 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 20 ms
+2025-07-01 17:21:47 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:47 [http-nio-8080-exec-9] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:47 [http-nio-8080-exec-9] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:48 [http-nio-8080-exec-9] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:48 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 24 ms
+2025-07-01 17:21:48 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:48 [http-nio-8080-exec-10] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:48 [http-nio-8080-exec-10] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:48 [http-nio-8080-exec-10] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:48 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 23 ms
+2025-07-01 17:21:49 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:49 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:49 [http-nio-8080-exec-1] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:49 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:49 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 20 ms
+2025-07-01 17:21:50 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:50 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:50 [http-nio-8080-exec-2] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:50 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:50 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 18 ms
+2025-07-01 17:21:50 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:50 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:50 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:50 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:50 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 19 ms
+2025-07-01 17:21:51 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:51 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:51 [http-nio-8080-exec-4] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:51 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:51 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 17 ms
+2025-07-01 17:21:51 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:51 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:51 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:51 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:51 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 18 ms
+2025-07-01 17:21:52 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:52 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:52 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:52 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:52 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 21 ms
+2025-07-01 17:21:53 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:53 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 17 ms
+2025-07-01 17:21:53 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:53 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 17 ms
+2025-07-01 17:21:53 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:53 [http-nio-8080-exec-9] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-9] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-9] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:53 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 17 ms
+2025-07-01 17:21:54 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:54 [http-nio-8080-exec-10] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:54 [http-nio-8080-exec-10] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:54 [http-nio-8080-exec-10] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:54 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 18 ms
+2025-07-01 17:21:55 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:55 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-1] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 18 ms
+2025-07-01 17:21:55 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:55 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-2] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 31 ms
+2025-07-01 17:21:55 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/2
+2025-07-01 17:21:55 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 2
+2025-07-01 17:21:55 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/2 - time Taken: 16 ms
+2025-07-01 17:22:13 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:13 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:13 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:13 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:13 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 17 ms
+2025-07-01 17:22:17 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:17 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:17 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:17 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:17 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 17 ms
+2025-07-01 17:22:18 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:18 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:18 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:18 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:18 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 17 ms
+2025-07-01 17:22:19 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:19 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:19 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:19 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:19 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 15 ms
+2025-07-01 17:22:20 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:20 [http-nio-8080-exec-9] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:20 [http-nio-8080-exec-9] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:20 [http-nio-8080-exec-9] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:20 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 20 ms
+2025-07-01 17:22:21 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:21 [http-nio-8080-exec-10] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:21 [http-nio-8080-exec-10] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:21 [http-nio-8080-exec-10] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:21 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 17 ms
+2025-07-01 17:22:22 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:22 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:22 [http-nio-8080-exec-1] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:22 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:22 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 14 ms
+2025-07-01 17:22:23 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:23 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:23 [http-nio-8080-exec-2] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:23 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:23 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 15 ms
+2025-07-01 17:22:24 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:24 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:24 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:24 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:24 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 15 ms
+2025-07-01 17:22:25 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:25 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:25 [http-nio-8080-exec-4] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:25 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:25 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 16 ms
+2025-07-01 17:22:27 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:22:27 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:22:27 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:22:27 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:22:27 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 13 ms
+2025-07-01 17:23:11 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:23:11 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 17:23:11 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 17:24:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 17:24:21 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 12456 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 17:24:21 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 17:24:21 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 17:24:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 17:24:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 17:24:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 17:24:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2025-07-01 17:24:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 17:24:26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:24:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 17:24:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 17:24:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 17:24:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4279 ms
+2025-07-01 17:24:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 17:24:26 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 17:24:26 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 17:24:27 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 17:24:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 17:24:28 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78dc691c
+2025-07-01 17:24:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 17:24:28 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 17:24:28 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 17:24:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 17:24:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:24:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 17:24:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 17:24:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 17:24:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 17:24:31 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 11.391 seconds (process running for 12.441)
+2025-07-01 17:24:31 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 17:24:41 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 17:24:41 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 17:24:41 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-07-01 17:24:41 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:24:41 [http-nio-8080-exec-2] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:24:41 [http-nio-8080-exec-2] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:24:41 [http-nio-8080-exec-2] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:24:42 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 765 ms
+2025-07-01 17:24:44 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:24:44 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:24:44 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:24:44 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:24:44 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 24 ms
+2025-07-01 17:24:45 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:24:45 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:24:45 [http-nio-8080-exec-4] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:24:45 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:24:45 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 25 ms
+2025-07-01 17:24:46 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:24:46 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:24:46 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:24:46 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:24:46 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 22 ms
+2025-07-01 17:24:48 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:24:48 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:24:48 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:24:48 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:24:48 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 25 ms
+2025-07-01 17:26:20 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:26:20 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:26:20 [http-nio-8080-exec-1] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:26:20 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:26:20 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 19 ms
+2025-07-01 17:27:39 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:27:39 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:27:39 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:27:39 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:27:39 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 19 ms
+2025-07-01 17:27:41 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:27:41 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:27:41 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:27:41 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:27:41 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 22 ms
+2025-07-01 17:27:43 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:27:43 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:27:43 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:27:43 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:27:43 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 24 ms
+2025-07-01 17:27:48 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:27:48 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:27:48 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:27:48 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:27:48 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 19 ms
+2025-07-01 17:27:50 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:27:50 [http-nio-8080-exec-9] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:27:50 [http-nio-8080-exec-9] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:27:50 [http-nio-8080-exec-9] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:27:50 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 20 ms
+2025-07-01 17:27:51 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/1
+2025-07-01 17:27:51 [http-nio-8080-exec-10] INFO  c.s.controller.StudentController - Fetching student with ID: 1
+2025-07-01 17:27:51 [http-nio-8080-exec-10] DEBUG c.springboot.service.StudentService - Fetching student with ID: 1
+2025-07-01 17:27:51 [http-nio-8080-exec-10] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 1
+2025-07-01 17:27:51 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/1 - time Taken: 20 ms
+2025-07-01 17:28:07 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 17:28:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 17:28:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

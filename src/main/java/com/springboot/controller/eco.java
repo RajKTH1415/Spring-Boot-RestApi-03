@@ -1,7 +1,6 @@
 package com.springboot.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/eco")
 public class eco {
 
-    @GetMapping
+    @PostMapping
     public  String ecoController(){
         return "Hello world";
     }
