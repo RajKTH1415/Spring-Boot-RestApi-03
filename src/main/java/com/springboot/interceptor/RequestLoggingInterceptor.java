@@ -20,7 +20,6 @@ public class RequestLoggingInterceptor implements HandlerInterceptor {
         logger.info("Incoming request:{} {}", request.getMethod(), request.getRequestURI());
         return true;
     }
-
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         long startTime = (long) request.getAttribute(START_TIME);

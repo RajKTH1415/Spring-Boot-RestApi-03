@@ -1,6 +1,7 @@
 package com.springboot.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.*;
 
@@ -12,6 +13,7 @@ import lombok.*;
 @Table(name = "teachers")
 public class Teacher {
 
+    @Id
     private int teacher_Id;
     private String teacherName;
     private String teacherEmail;

@@ -5976,3 +5976,342 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.web.servlet.res
 2025-07-01 15:14:05 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-07-01 15:14:05 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-07-01 15:14:05 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 15:16:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:16:30 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 16220 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:16:30 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:16:30 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:16:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:16:30 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:16:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 15:16:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2025-07-01 15:16:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 15:16:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 15:16:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 15:16:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 15:16:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 15:16:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4797 ms
+2025-07-01 15:16:36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 15:16:36 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 15:16:36 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 15:16:37 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 15:16:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 15:16:38 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6337a653
+2025-07-01 15:16:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 15:16:38 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 15:16:38 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 15:16:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 15:16:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 15:16:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 15:16:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 15:16:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 15:16:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 15:16:43 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 14.302 seconds (process running for 15.66)
+2025-07-01 15:16:43 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 15:17:31 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 15:17:31 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 15:17:31 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui.html
+2025-07-01 15:17:31 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui.html - time Taken: 93 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/index.html
+2025-07-01 15:17:31 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/index.html - time Taken: 3 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-initializer.js
+2025-07-01 15:17:31 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui.css
+2025-07-01 15:17:31 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui-bundle.js
+2025-07-01 15:17:31 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/index.css
+2025-07-01 15:17:31 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui.css - time Taken: 4 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/index.css - time Taken: 21 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui-bundle.js - time Taken: 34 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-07-01 15:17:31 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui-standalone-preset.js - time Taken: 2 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-initializer.js - time Taken: 129 ms
+2025-07-01 15:17:31 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /v1/api-docs/swagger-config
+2025-07-01 15:17:31 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /v1/api-docs/swagger-config - time Taken: 28 ms
+2025-07-01 15:17:32 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /v1/api-docs
+2025-07-01 15:17:33 [http-nio-8080-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 957 ms
+2025-07-01 15:17:33 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /v1/api-docs - time Taken: 1033 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui.html
+2025-07-01 15:18:54 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui.html - time Taken: 7 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/index.html
+2025-07-01 15:18:54 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/index.html - time Taken: 2 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-initializer.js
+2025-07-01 15:18:54 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui.css
+2025-07-01 15:18:54 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui.css - time Taken: 2 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-2] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-initializer.js - time Taken: 12 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/index.css
+2025-07-01 15:18:54 [http-nio-8080-exec-9] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/index.css - time Taken: 2 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui-bundle.js
+2025-07-01 15:18:54 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /swagger-ui/swagger-ui-standalone-preset.js
+2025-07-01 15:18:54 [http-nio-8080-exec-10] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui-bundle.js - time Taken: 4 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /swagger-ui/swagger-ui-standalone-preset.js - time Taken: 3 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /v1/api-docs/swagger-config
+2025-07-01 15:18:54 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /v1/api-docs/swagger-config - time Taken: 9 ms
+2025-07-01 15:18:54 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /v1/api-docs
+2025-07-01 15:18:54 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /v1/api-docs - time Taken: 9 ms
+2025-07-01 15:24:55 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 15:24:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 15:24:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 15:52:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:52:07 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 8616 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:52:07 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:52:07 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:52:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:52:08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:52:10 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rateLimitingFilter' defined in class path resource [com/springboot/config/FilterConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=filterConfig; factoryMethodName=rateLimitingFilter; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springboot/config/FilterConfig.class]] for bean 'rateLimitingFilter' since there is already [Generic bean: class [com.springboot.ratelimit.RateLimitingFilter]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class]] bound.
+2025-07-01 15:52:10 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 15:52:10 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rateLimitingFilter', defined in class path resource [com/springboot/config/FilterConfig.class], could not be registered. A bean with that name has already been defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-07-01 15:52:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:52:31 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 11980 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:52:31 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:52:31 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:52:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:52:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:52:33 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rateLimitingFilter' defined in class path resource [com/springboot/config/FilterConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=filterConfig; factoryMethodName=rateLimitingFilter; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springboot/config/FilterConfig.class]] for bean 'rateLimitingFilter' since there is already [Generic bean: class [com.springboot.ratelimit.RateLimitingFilter]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class]] bound.
+2025-07-01 15:52:33 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 15:52:33 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rateLimitingFilter', defined in class path resource [com/springboot/config/FilterConfig.class], could not be registered. A bean with that name has already been defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-07-01 15:53:46 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:53:46 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 1080 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:53:46 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:53:46 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:53:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:53:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:53:48 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rateLimitingFilter' defined in class path resource [com/springboot/config/FilterConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=filterConfig; factoryMethodName=rateLimitingFilter; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springboot/config/FilterConfig.class]] for bean 'rateLimitingFilter' since there is already [Generic bean: class [com.springboot.ratelimit.RateLimitingFilter]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class]] bound.
+2025-07-01 15:53:48 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 15:53:48 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rateLimitingFilter', defined in class path resource [com/springboot/config/FilterConfig.class], could not be registered. A bean with that name has already been defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-07-01 15:55:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:55:15 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 5216 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:55:15 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:55:15 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:55:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:55:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:55:17 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rateLimitingFilter' defined in class path resource [com/springboot/config/FilterConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=filterConfig; factoryMethodName=rateLimitingFilter; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/springboot/config/FilterConfig.class]] for bean 'rateLimitingFilter' since there is already [Generic bean: class [com.springboot.ratelimit.RateLimitingFilter]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class]] bound.
+2025-07-01 15:55:17 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 15:55:17 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rateLimitingFilter', defined in class path resource [com/springboot/config/FilterConfig.class], could not be registered. A bean with that name has already been defined in file [C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes\com\springboot\ratelimit\RateLimitingFilter.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-07-01 15:57:53 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:57:53 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 17476 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:57:53 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:57:53 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:57:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:57:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:57:55 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 15:57:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 1 JPA repository interface.
+2025-07-01 15:57:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 15:57:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 15:57:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 15:57:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 15:57:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 15:57:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3821 ms
+2025-07-01 15:57:57 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 15:57:58 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 15:57:58 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 15:57:58 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 15:57:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 15:57:59 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a29ff79
+2025-07-01 15:57:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 15:57:59 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 15:57:59 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 15:58:00 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Entity 'com.springboot.model.Teacher' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+2025-07-01 15:58:00 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.springboot.model.Teacher' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+2025-07-01 15:58:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 15:58:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-01 15:58:00 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-07-01 15:58:00 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-01 15:58:00 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.springboot.model.Teacher' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.springboot.SpringBootRestApi03Application.main(SpringBootRestApi03Application.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.hibernate.AnnotationException: Entity 'com.springboot.model.Teacher' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:279)
+	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:215)
+	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:160)
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:407)
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:248)
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:399)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:259)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 18 common frames omitted
+2025-07-01 15:58:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-07-01 15:58:42 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Starting SpringBootRestApi03Application using Java 21.0.6 with PID 16032 (C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03\target\classes started by Raj in C:\Users\Admin\Desktop\Backend-Developer\Technoelevate-Spring-Boot-01\Spring-Boot-RestApi-03)
+2025-07-01 15:58:42 [restartedMain] DEBUG c.s.SpringBootRestApi03Application - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-07-01 15:58:42 [restartedMain] INFO  c.s.SpringBootRestApi03Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-01 15:58:42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-01 15:58:42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-01 15:58:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-01 15:58:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+2025-07-01 15:58:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-01 15:58:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-07-01 15:58:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-01 15:58:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-07-01 15:58:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-01 15:58:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4038 ms
+2025-07-01 15:58:47 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-01 15:58:47 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-07-01 15:58:47 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-01 15:58:47 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-01 15:58:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-01 15:58:48 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fe87903
+2025-07-01 15:58:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-01 15:58:48 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-01 15:58:48 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-07-01 15:58:50 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-01 15:58:50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 15:58:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-01 15:58:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-01 15:58:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-07-01 15:58:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-01 15:58:52 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Started SpringBootRestApi03Application in 10.93 seconds (process running for 11.974)
+2025-07-01 15:58:52 [restartedMain] INFO  c.s.SpringBootRestApi03Application - Application starts successfully..
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Attempting to create student with email: raju@gmail.in
+2025-07-01 15:59:46 [http-nio-8080-exec-1] INFO  c.springboot.service.StudentService - Student created successfully with ID: 15
+2025-07-01 15:59:46 [http-nio-8080-exec-1] DEBUG c.s.controller.StudentController - Student created with ID: 15
+2025-07-01 15:59:47 [http-nio-8080-exec-1] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 937 ms
+2025-07-01 15:59:50 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 15:59:50 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 15:59:50 [http-nio-8080-exec-3] INFO  c.springboot.service.StudentService - Attempting to create student with email: raju@gmail.in
+2025-07-01 15:59:50 [http-nio-8080-exec-3] WARN  c.springboot.service.StudentService - Duplicate student email found: raju@gmail.in
+2025-07-01 15:59:50 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.DuplicateFoundException: Student with email [raju@gmail.in] already exists]
+2025-07-01 15:59:50 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 32 ms
+2025-07-01 15:59:52 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 15:59:52 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 15:59:52 [http-nio-8080-exec-4] INFO  c.springboot.service.StudentService - Attempting to create student with email: raju@gmail.in
+2025-07-01 15:59:52 [http-nio-8080-exec-4] WARN  c.springboot.service.StudentService - Duplicate student email found: raju@gmail.in
+2025-07-01 15:59:52 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.DuplicateFoundException: Student with email [raju@gmail.in] already exists]
+2025-07-01 15:59:52 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 8 ms
+2025-07-01 15:59:53 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 15:59:53 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 15:59:53 [http-nio-8080-exec-5] INFO  c.springboot.service.StudentService - Attempting to create student with email: raju@gmail.in
+2025-07-01 15:59:53 [http-nio-8080-exec-5] WARN  c.springboot.service.StudentService - Duplicate student email found: raju@gmail.in
+2025-07-01 15:59:53 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.DuplicateFoundException: Student with email [raju@gmail.in] already exists]
+2025-07-01 15:59:53 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 9 ms
+2025-07-01 15:59:54 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:POST /api/student/save
+2025-07-01 15:59:54 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Received request to save new student
+2025-07-01 15:59:54 [http-nio-8080-exec-6] INFO  c.springboot.service.StudentService - Attempting to create student with email: raju@gmail.in
+2025-07-01 15:59:54 [http-nio-8080-exec-6] WARN  c.springboot.service.StudentService - Duplicate student email found: raju@gmail.in
+2025-07-01 15:59:54 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.springboot.exception.DuplicateFoundException: Student with email [raju@gmail.in] already exists]
+2025-07-01 15:59:54 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: POST /api/student/save - time Taken: 9 ms
+2025-07-01 16:02:40 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:02:40 [http-nio-8080-exec-3] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:02:40 [http-nio-8080-exec-3] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:02:40 [http-nio-8080-exec-3] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 3
+2025-07-01 16:02:40 [http-nio-8080-exec-3] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 53 ms
+2025-07-01 16:02:46 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:02:46 [http-nio-8080-exec-4] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:02:46 [http-nio-8080-exec-4] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:02:46 [http-nio-8080-exec-4] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 3
+2025-07-01 16:02:46 [http-nio-8080-exec-4] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 7 ms
+2025-07-01 16:02:47 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:02:47 [http-nio-8080-exec-5] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:02:47 [http-nio-8080-exec-5] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:02:47 [http-nio-8080-exec-5] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 3
+2025-07-01 16:02:47 [http-nio-8080-exec-5] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 8 ms
+2025-07-01 16:02:48 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:02:48 [http-nio-8080-exec-6] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:02:48 [http-nio-8080-exec-6] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:02:48 [http-nio-8080-exec-6] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 3
+2025-07-01 16:02:48 [http-nio-8080-exec-6] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 8 ms
+2025-07-01 16:02:49 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:02:49 [http-nio-8080-exec-7] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:02:49 [http-nio-8080-exec-7] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:02:49 [http-nio-8080-exec-7] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 3
+2025-07-01 16:02:49 [http-nio-8080-exec-7] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 6 ms
+2025-07-01 16:02:50 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Incoming request:GET /api/student/3
+2025-07-01 16:02:50 [http-nio-8080-exec-8] INFO  c.s.controller.StudentController - Fetching student with ID: 3
+2025-07-01 16:02:50 [http-nio-8080-exec-8] DEBUG c.springboot.service.StudentService - Fetching student with ID: 3
+2025-07-01 16:02:50 [http-nio-8080-exec-8] DEBUG c.s.controller.StudentController - Successfully fetched student with ID: 3
+2025-07-01 16:02:50 [http-nio-8080-exec-8] INFO  c.s.i.RequestLoggingInterceptor - Completed request: GET /api/student/3 - time Taken: 12 ms
+2025-07-01 16:04:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-01 16:04:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-01 16:04:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
