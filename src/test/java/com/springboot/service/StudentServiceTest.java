@@ -10,7 +10,9 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+
 import java.util.*;
+
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -40,14 +42,18 @@ public class StudentServiceTest {
         sampleStudent.setStudentGender("Male");
         sampleStudent.setStudentEmail("raj@gmail.com");
     }
+
     @AfterEach
     void tearDown() {
         System.out.println("After Each");
     }
+
     @AfterAll
     static void afterAll() {
         System.out.println("After All");
     }
+
+    // Original Tests
     @Test
     void createStudentSuccessfully() {
         when(studentrepository.existsByStudentEmail(sampleStudent.getStudentEmail())).thenReturn(false);
@@ -59,6 +65,7 @@ public class StudentServiceTest {
         assertEquals(sampleStudent.getStudentEmail(), saved.getStudentEmail());
         verify(studentrepository, times(1)).save(sampleStudent);
     }
+
     @Test
     void createStudentThrowsDuplicateException() {
         when(studentrepository.existsByStudentEmail(sampleStudent.getStudentEmail())).thenReturn(true);
@@ -66,6 +73,7 @@ public class StudentServiceTest {
         assertThrows(DuplicateFoundException.class, () -> studentService.createStudent(sampleStudent));
         verify(studentrepository, never()).save(any());
     }
+
     @Test
     void getStudentByIdSuccessfully() {
         when(studentrepository.findById(1L)).thenReturn(Optional.of(sampleStudent));
@@ -75,12 +83,14 @@ public class StudentServiceTest {
         assertEquals("Rajkumar Prasad", student.getStudentName());
         verify(studentrepository, times(1)).findById(1L);
     }
+
     @Test
     void getStudentByIdThrowsException() {
         when(studentrepository.findById(1L)).thenReturn(Optional.empty());
 
         assertThrows(StudentNotFoundException.class, () -> studentService.getStudentById(1L));
     }
+
     @Test
     void getAllStudentsSuccessfully() {
         when(studentrepository.findAll()).thenReturn(List.of(sampleStudent));
@@ -99,7 +109,6 @@ public class StudentServiceTest {
         assertThrows(NoDataAvailableException.class, () -> studentService.getAllStudents());
     }
 
-
     @Test
     void updateStudentSuccessfully() {
         Student updatedStudent = new Student();
@@ -108,19 +117,21 @@ public class StudentServiceTest {
         updatedStudent.setStudentEmail("updated@gmail.com");
 
         when(studentrepository.findById(1L)).thenReturn(Optional.of(sampleStudent));
-        when(studentrepository.save(any(Student.class))).thenReturn(sampleStudent);
+        when(studentrepository.save(any(Student.class))).thenReturn(updatedStudent);
 
         Student result = studentService.updateStudent(1L, updatedStudent);
 
         assertEquals("Updated", result.getStudentName());
         assertEquals("Other", result.getStudentGender());
     }
+
     @Test
     void updateStudentThrowsNotFound() {
         when(studentrepository.findById(1L)).thenReturn(Optional.empty());
 
         assertThrows(StudentNotFoundException.class, () -> studentService.updateStudent(1L, sampleStudent));
     }
+
     @Test
     void deleteStudentByIdSuccessfully() {
         when(studentrepository.findById(1L)).thenReturn(Optional.of(sampleStudent));
@@ -131,12 +142,14 @@ public class StudentServiceTest {
         assertEquals(sampleStudent.getStudentId(), deleted.getStudentId());
         verify(studentrepository).deleteById(1L);
     }
+
     @Test
     void deleteStudentByIdThrowsNotFound() {
         when(studentrepository.findById(1L)).thenReturn(Optional.empty());
 
         assertThrows(StudentNotFoundException.class, () -> studentService.deleteStudentById(1L));
     }
+
     @Test
     void deleteAllStudentsSuccessfully() {
         when(studentrepository.count()).thenReturn(5L);
@@ -146,12 +159,116 @@ public class StudentServiceTest {
 
         verify(studentrepository).deleteAll();
     }
+
     @Test
     void deleteAllStudentsThrowsNotFound() {
         when(studentrepository.count()).thenReturn(0L);
 
         assertThrows(StudentNotFoundException.class, () -> studentService.deleteAllStudents());
     }
+
+    // ✅ New Tests
+
+    @Test
+    void getStudentsByGenderSuccessfully() {
+        when(studentrepository.findByStudentGenderIgnoreCase("Male")).thenReturn(List.of(sampleStudent));
+
+        List<Student> students = studentService.getStudentsByGender("Male");
+
+        assertFalse(students.isEmpty());
+        assertEquals("Male", students.get(0).getStudentGender());
+    }
+
+    @Test
+    void getStudentsByGenderThrowsException() {
+        when(studentrepository.findByStudentGenderIgnoreCase("Male")).thenReturn(Collections.emptyList());
+
+        assertThrows(NoDataAvailableException.class, () -> studentService.getStudentsByGender("Male"));
+    }
+
+    @Test
+    void getStudentsByEmailDomainSuccessfully() {
+        when(studentrepository.findAll()).thenReturn(List.of(sampleStudent));
+
+        List<Student> students = studentService.getStudentsByEmailDomain("gmail.com");
+
+        assertEquals(1, students.size());
+        assertTrue(students.get(0).getStudentEmail().endsWith("@gmail.com"));
+    }
+
+    @Test
+    void getStudentsByEmailDomainThrowsNoData() {
+        when(studentrepository.findAll()).thenReturn(Collections.emptyList());
+
+        assertThrows(NoDataAvailableException.class, () -> studentService.getStudentsByEmailDomain("gmail.com"));
+    }
+
+    @Test
+    void getTopNStudentsSuccessfully() {
+        Student s2 = new Student();
+        s2.setStudentId(2L);
+        s2.setStudentName("Amit");
+        s2.setStudentGender("Male");
+        s2.setStudentEmail("amit@gmail.com");
+
+        when(studentrepository.findAll()).thenReturn(new ArrayList<>(Arrays.asList(sampleStudent, s2)));
+
+        List<Student> topStudents = studentService.getTopNStudents(1);
+
+        assertEquals(1, topStudents.size());
+    }
+
+    @Test
+    void getTopNStudentsThrowsIfEmpty() {
+        when(studentrepository.findAll()).thenReturn(Collections.emptyList());
+
+        assertThrows(NoDataAvailableException.class, () -> studentService.getTopNStudents(2));
+    }
+
+    @Test
+    void isStudentExistsWithNameReturnsTrue() {
+        when(studentrepository.findAll()).thenReturn(List.of(sampleStudent));
+
+        assertTrue(studentService.isStudentExistsWithName("Rajkumar Prasad"));
+    }
+
+    @Test
+    void isStudentExistsWithNameReturnsFalse() {
+        when(studentrepository.findAll()).thenReturn(List.of());
+
+        assertFalse(studentService.isStudentExistsWithName("Unknown"));
+    }
+
+    @Test
+    void archiveAndDeleteAllSuccessfully() {
+        when(studentrepository.findAll()).thenReturn(List.of(sampleStudent));
+        when(studentrepository.count()).thenReturn(1L);
+        doNothing().when(studentrepository).deleteAll();
+
+        studentService.archiveAndDeleteAll();
+
+        verify(studentrepository).deleteAll();
+    }
+
+    @Test
+    void safeUpdateStudentEmailSuccessfully() {
+        when(studentrepository.existsByStudentEmail("newraj@gmail.com")).thenReturn(false);
+        when(studentrepository.findById(1L)).thenReturn(Optional.of(sampleStudent));
+        when(studentrepository.save(any(Student.class))).thenAnswer(i -> i.getArgument(0));
+
+        Student updated = studentService.safeUpdateStudentEmail(1L, "newraj@gmail.com");
+
+        assertEquals("newraj@gmail.com", updated.getStudentEmail());
+    }
+
+    @Test
+    void safeUpdateStudentEmailThrowsDuplicate() {
+        when(studentrepository.existsByStudentEmail("newraj@gmail.com")).thenReturn(true);
+
+        assertThrows(DuplicateFoundException.class,
+                () -> studentService.safeUpdateStudentEmail(1L, "newraj@gmail.com"));
+    }
+
     @Test
     void dummyTest() {
         System.out.println("Dummy test");
