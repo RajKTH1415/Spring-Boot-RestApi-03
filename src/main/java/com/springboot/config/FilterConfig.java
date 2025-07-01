@@ -16,4 +16,5 @@ public class FilterConfig {
         registrationBean.addUrlPatterns("/api/student/*");
         return registrationBean;
     }
+
 }

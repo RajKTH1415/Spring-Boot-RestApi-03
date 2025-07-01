@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/eco")
-public class eco {
+public class EcoController {
 
     @PostMapping
     public  String ecoController(){
