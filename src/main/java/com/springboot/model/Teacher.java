@@ -18,7 +18,7 @@ public class Teacher {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int teacher_Id;
+    private Long teacher_Id;
 
     @NotBlank(message = "Name is mandatory")
     private String teacherName;
